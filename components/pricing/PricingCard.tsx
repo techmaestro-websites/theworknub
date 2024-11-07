@@ -17,7 +17,7 @@ const PricingCard = () => {
                 <Image
                 src={chairIcon}
                 alt="chair"
-                className="bg-[#F9690E] h-10 w-10 p-2 rounded-xl"
+                className="bg-[#F9690E] h-10 w-10 p-2 rounded-xl animate-pulse"
                 />
                 <h1 className='text-[13px] font-bold'>Hot Desk Access</h1>
                 <p className='text-[13px] font-thin'>(Non-Membership)</p>
@@ -47,7 +47,7 @@ const PricingCard = () => {
                     <Image
                     src={chairIcon}
                     alt="chair"
-                    className="bg-[#F9690E] h-10 w-10 p-2 rounded-xl"
+                    className="bg-[#F9690E] h-10 w-10 p-2 rounded-xl animate-pulse"
                     />
                     <h1 className='text-[13px] font-bold'>Solo</h1>
                     <p className='text-[13px] font-thin'>(Single Membership)</p>
@@ -76,7 +76,7 @@ const PricingCard = () => {
                     <Image
                     src={chairIcon}
                     alt="chair"
-                    className="bg-[#F9690E] h-10 w-10 p-2 rounded-xl"
+                    className="bg-[#F9690E] h-10 w-10 p-2 rounded-xl animate-pulse"
                     />
                     <h1 className='text-[13px] font-bold'>Team Suite</h1>
                     <p className='text-[13px] font-thin'>(Group Membership)</p>
@@ -105,7 +105,7 @@ const PricingCard = () => {
                     <Image
                     src={chairIcon}
                     alt="chair"
-                    className="bg-[#F9690E] h-10 w-10 p-2 rounded-xl"
+                    className="bg-[#F9690E] h-10 w-10 p-2 rounded-xl animate-pulse"
                     />
                     <h1 className='text-[13px] font-bold'>Meet Plus</h1>
                     {/* <p className='text-[13px] font-thin'>(Group Membership)</p> */}
@@ -132,7 +132,7 @@ const PricingCard = () => {
                     <Image
                     src={chairIcon}
                     alt="chair"
-                    className="bg-[#F9690E] h-10 w-10 p-2 rounded-xl"
+                    className="bg-[#F9690E] h-10 w-10 p-2 rounded-xl animate-pulse"
                     />
                     <h1 className='text-[13px] font-bold'>Event Space</h1>
                     {/* <p className='text-[13px] font-thin'>(Group Membership)</p> */}

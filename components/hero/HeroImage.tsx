@@ -5,7 +5,7 @@ import { Card, CardContent } from '../ui/card'
 const HeroImage = () => {
   return (
      <div className='hidden md:block'>
-        <Image src={heroImg} alt='hero' className='w-full h-[25rem] rounded-md object-cover ' />
+        <Image src={heroImg} alt='hero' className='w-full h-[25rem] rounded-md object-cover' />
     </div>
 )}
 export default HeroImage
