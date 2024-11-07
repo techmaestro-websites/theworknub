@@ -36,8 +36,8 @@ const PricingCard = () => {
                 <h1 className='flex items-center justify-between'>Weekly <span className='font-bold'>#14,000</span></h1>
                 <h1 className='flex items-center justify-between'>Monthly <span className='font-bold'>#63,000</span></h1>
                 <h1 className='flex items-center justify-between'>Quarterly <span className='font-bold'>#180,000</span></h1>
-                <h1 className='flex items-center justify-between'>Quarterly <span className='font-bold'>#360,000</span></h1>
-                <h1 className='flex items-center justify-between'>Quarterly <span className='font-bold'>#720,000</span></h1>
+                <h1 className='flex items-center justify-between'>Bi-Annually <span className='font-bold'>#360,000</span></h1>
+                <h1 className='flex items-center justify-between'>Annually <span className='font-bold'>#720,000</span></h1>
             </div>
             <Button size='lg' variant='default' className='bg-[#F9690E] hover:bg-[#fe7723]'>Book a space</Button>
         </div>
@@ -65,8 +65,8 @@ const PricingCard = () => {
                 <h1 className='flex items-center justify-between'>Weekly <span className='font-bold'>#19,000</span></h1>
                 <h1 className='flex items-center justify-between'>Monthly <span className='font-bold'>#75,000</span></h1>
                 <h1 className='flex items-center justify-between'>Quarterly <span className='font-bold'>#225,000</span></h1>
-                <h1 className='flex items-center justify-between'>Quarterly <span className='font-bold'>#450,000</span></h1>
-                <h1 className='flex items-center justify-between'>Quarterly <span className='font-bold'>#900,000</span></h1>
+                <h1 className='flex items-center justify-between'>Bi-Annually <span className='font-bold'>#450,000</span></h1>
+                <h1 className='flex items-center justify-between'>Annually <span className='font-bold'>#900,000</span></h1>
             </div>
             <Button size='lg' variant='default' className='bg-[#F9690E] hover:bg-[#fe7723]'>Book a space</Button>
         </div>
@@ -94,8 +94,8 @@ const PricingCard = () => {
                 <h1 className='flex items-center justify-between'>Weekly <span className='font-bold'>#38,000</span></h1>
                 <h1 className='flex items-center justify-between'>Monthly <span className='font-bold'>#150,000</span></h1>
                 <h1 className='flex items-center justify-between'>Quarterly <span className='font-bold'>#450,000</span></h1>
-                <h1 className='flex items-center justify-between'>Quarterly <span className='font-bold'>#390,000</span></h1>
-                <h1 className='flex items-center justify-between'>Quarterly <span className='font-bold'>#780,000</span></h1>
+                <h1 className='flex items-center justify-between'>Bi-Annually <span className='font-bold'>#390,000</span></h1>
+                <h1 className='flex items-center justify-between'>Annually <span className='font-bold'>#780,000</span></h1>
             </div>
             <Button size='lg' variant='default' className='bg-[#F9690E] hover:bg-[#fe7723]'>Book a space</Button>
         </div>
