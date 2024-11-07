@@ -6,11 +6,11 @@ import Image from "next/image"
 
 const Gallery = () => {
   return (
-    <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-2'>
-        <Image src={PrivateOffice} alt='hero' className='w-full h-[25rem] rounded-md object-cover y' />
-        <Image src={Conference} alt='hero' className='w-full h-[25rem] rounded-md object-cover ' />
-        <Image src={Dedicated} alt='hero' className='w-full h-[25rem] rounded-md object-cover ' />
-        <Image src={HotDesk} alt='hero' className='w-full h-[25rem] rounded-md object-cover ' />
+    <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 p-2 '>
+        <Image src={PrivateOffice} alt='hero' className='w-full h-[16rem] rounded-xl object-cover y' />
+        <Image src={Conference} alt='hero' className='w-full h-[16rem] rounded-xl object-cover ' />
+        <Image src={Dedicated} alt='hero' className='w-full h-[16rem] rounded-xl object-cover ' />
+        <Image src={HotDesk} alt='hero' className='w-full h-[16rem] rounded-xl object-cover ' />
     </div>
   )
 }

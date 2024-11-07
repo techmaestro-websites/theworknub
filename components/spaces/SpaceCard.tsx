@@ -10,7 +10,7 @@ const SpaceCard = () => {
   return (
    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 itens-center justify-center gap-10 px-4'>
         <Card className='flex flex-col items-center justify-center gap-5 bg-[#F9690E] py-4 rounded-xl'>
-            <CardContent>
+            <CardContent className='flex flex-col items-center justify-between h-[450px]'>
                 <Image
                     src={Hotdesk}
                     alt="line"
@@ -21,7 +21,7 @@ const SpaceCard = () => {
             </CardContent>
         </Card>
         <Card className='flex flex-col items-center justify-center gap-5 bg-[#F9690E] py-4 rounded-xl'>
-            <CardContent>
+            <CardContent className='flex flex-col items-center justify-between h-[450px]'>
                 <Image
                     src={Dedicated}
                     alt="line"
@@ -32,7 +32,7 @@ const SpaceCard = () => {
             </CardContent>
         </Card>
         <Card className='flex flex-col items-center justify-center gap-5 bg-[#F9690E] py-4 rounded-xl'>
-            <CardContent>
+            <CardContent className='flex flex-col items-center justify-between h-[450px]'>
                 <Image
                     src={Team}
                     alt="line"
@@ -43,7 +43,7 @@ const SpaceCard = () => {
             </CardContent>
         </Card>
         <Card className='flex flex-col items-center justify-center gap-5 bg-[#F9690E] py-4 rounded-xl'>
-            <CardContent>
+            <CardContent className='flex flex-col items-center justify-between h-[450px]'>
                 <Image
                     src={Office}
                     alt="line"
@@ -54,7 +54,7 @@ const SpaceCard = () => {
             </CardContent>
         </Card>
         <Card className='flex flex-col items-center justify-center gap-5 bg-[#F9690E] py-4 rounded-xl'>
-            <CardContent>
+            <CardContent className='flex flex-col items-center justify-between h-[450px]'>
                 <Image
                     src={Conference}
                     alt="line"
