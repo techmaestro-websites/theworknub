@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className=" container flex flex-row items-center justify-between flex-wrap gap-4 py-8">
             <Logo />
             <NavLink />
-            <Cta label="book a space" />
+            <Cta link='https://forms.gle/Qo2XG1smyRqqHNNM6' label="book a space" />
         </div>
     </nav>
   )

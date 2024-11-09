@@ -1,10 +1,7 @@
-import Office from '@/public/images/Office icon.png'
-import Car from '@/public/images/Car-icon.png'
-import Light from '@/public/images/Light-icon.png'
-import Wifi from '@/public/images/Wi-Fi icon.png'
 import chairIcon from '@/public/images/chairIcon.png'
 import Image from 'next/image'
 import { Button } from '../ui/button'
+import Cta from '../navbar/Cta'
 
 
 const PricingCard = () => {
@@ -24,7 +21,7 @@ const PricingCard = () => {
             </div>
             <div>
                 <ul className='list-disc'>
-                    <li className='text-sm'>Access to Hot Deskk Area</li>
+                    <li className='text-sm'>Access to Hot Desk Area</li>
                     <li className='text-sm'>Access to Lounge Area</li>
                     <li className='text-sm'>Free Cofee</li>
                     <li className='text-sm'>Free Wi-Fi</li>
@@ -39,7 +36,7 @@ const PricingCard = () => {
                 <h1 className='flex items-center justify-between'>Bi-Annually <span className='font-bold'>#360,000</span></h1>
                 <h1 className='flex items-center justify-between'>Annually <span className='font-bold'>#720,000</span></h1>
             </div>
-            <Button size='lg' variant='default' className='bg-[#F9690E] hover:bg-[#fe7723]'>Book a space</Button>
+            <Cta link='https://forms.gle/Qo2XG1smyRqqHNNM6' label='Book a space' className='bg-[#F9690E] hover:bg-[#fe7723] py-4'></Cta>
         </div>
         <div className='flex flex-col items-left justify-between gap-5 bg-[#EAFFE3] p-10 rounded-xl h-[450px]'>
             <div className='flex flex-col gap-2'>
@@ -68,7 +65,7 @@ const PricingCard = () => {
                 <h1 className='flex items-center justify-between'>Bi-Annually <span className='font-bold'>#450,000</span></h1>
                 <h1 className='flex items-center justify-between'>Annually <span className='font-bold'>#900,000</span></h1>
             </div>
-            <Button size='lg' variant='default' className='bg-[#F9690E] hover:bg-[#fe7723]'>Book a space</Button>
+            <Cta link='https://forms.gle/Qo2XG1smyRqqHNNM6' label='Book a space' className='bg-[#F9690E] hover:bg-[#fe7723] py-4'></Cta>
         </div>
         <div className='flex flex-col items-left justify-between gap-5 bg-[#EAFFE3] p-10 rounded-xl h-[450px]'>
                 <div className='flex flex-col gap-2'>
@@ -97,7 +94,7 @@ const PricingCard = () => {
                 <h1 className='flex items-center justify-between'>Bi-Annually <span className='font-bold'>#390,000</span></h1>
                 <h1 className='flex items-center justify-between'>Annually <span className='font-bold'>#780,000</span></h1>
             </div>
-            <Button size='lg' variant='default' className='bg-[#F9690E] hover:bg-[#fe7723]'>Book a space</Button>
+            <Cta link='https://forms.gle/Qo2XG1smyRqqHNNM6' label='Book a space' className='bg-[#F9690E] hover:bg-[#fe7723] py-4'></Cta>
         </div>
         <div className='flex flex-col items-left justify-between gap-5 bg-[#EAFFE3] p-10 rounded-xl h-[450px]'>
             <div className='flex flex-col gap-2'>
@@ -124,7 +121,7 @@ const PricingCard = () => {
                 <h1 className='flex items-center justify-between'>Hourly (10-15 persons) <span className='font-bold'>#30,000</span></h1>
                 <h1 className='flex items-center justify-between'>Hourly (15-20 persons) <span className='font-bold'>#40,000</span></h1>
             </div>
-            <Button size='lg' variant='default' className='bg-[#F9690E] hover:bg-[#fe7723]'>Book a space</Button>
+            <Cta link='https://forms.gle/Qo2XG1smyRqqHNNM6' label='Book a space' className='bg-[#F9690E] hover:bg-[#fe7723] py-4'></Cta>
         </div>
         <div className='flex flex-col items-left justify-between gap-5 bg-[#EAFFE3] p-10 rounded-xl h-[450px]'>
             <div className='flex flex-col gap-2'>
@@ -149,7 +146,7 @@ const PricingCard = () => {
             <div>
                 <h1 className='flex items-center justify-between'>Day <span className='font-bold'>#150,000</span></h1>
             </div>
-            <Button size='lg' variant='default' className='bg-[#F9690E] hover:bg-[#fe7723]'>Book a space</Button>
+            <Cta link='https://forms.gle/Qo2XG1smyRqqHNNM6' label='Book a space' className='bg-[#F9690E] hover:bg-[#fe7723] py-4'></Cta>
         </div>
         
         
