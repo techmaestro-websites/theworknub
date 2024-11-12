@@ -13,7 +13,7 @@ const HeroText = () => {
         </p>
         <div className="flex flex-col md:flex-row gap-6 mt-8">
             <Cta link='https://forms.gle/Qo2XG1smyRqqHNNM6' className="bg-black rounded-md hover:bg-gray-600" label="reserve a seat" />
-            <Cta link='/contact' label="contact us" className="rounded-md " />
+            <Cta link='http://wa.me/2347077732936' label="contact us" className="rounded-md " />
         </div>
         <Image
             src={Line}

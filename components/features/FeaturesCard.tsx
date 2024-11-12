@@ -13,7 +13,7 @@ const FeaturesCard = () => {
                 alt="line"
                 className="bg-[#F9690E] h-20 w-20 p-4 rounded-xl"
             />
-            <h1 className='font-bold text-xl text-center uppercase tracking-widest'>Conductive workspace</h1>
+            <h1 className='font-bold text-xl text-center uppercase tracking-widest'>Conducive workspace</h1>
             <p className='text-center font-semibold'>Hot desk, dedicated desk, private office, meeting room, rest lounge, a conducive and innovative space</p>
         </div>
         <div className='flex flex-col items-center justify-around gap-5 bg-[#EAFFE3] p-10 rounded-xl'>

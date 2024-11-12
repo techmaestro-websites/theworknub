@@ -23,7 +23,7 @@ const PricingCard = () => {
                 <ul className='list-disc'>
                     <li className='text-sm'>Access to Hot Desk Area</li>
                     <li className='text-sm'>Access to Lounge Area</li>
-                    <li className='text-sm'>Free Cofee</li>
+                    <li className='text-sm'>Free Coffee</li>
                     <li className='text-sm'>Free Wi-Fi</li>
                 </ul>
             </div>
@@ -53,7 +53,7 @@ const PricingCard = () => {
                     <ul className='list-disc'>
                         <li className='text-sm'>Dedicated Desk Reserved For You</li>
                         <li className='text-sm'>Access to Lounge Area</li>
-                        <li className='text-sm'>Free Cofee</li>
+                        <li className='text-sm'>Free Coffee</li>
                         <li className='text-sm'>Free Wi-Fi</li>
                     </ul>
                 </div>
@@ -82,7 +82,7 @@ const PricingCard = () => {
                     <ul className='list-disc'>
                         <li className='text-sm'>Assigned Private Office (Max 3 persons)</li>
                         <li className='text-sm'>Access to Lounge Area</li>
-                        <li className='text-sm'>Free Cofee</li>
+                        <li className='text-sm'>Free Coffee</li>
                         <li className='text-sm'>Free Wi-Fi</li>
                     </ul>
                 </div>
@@ -111,7 +111,7 @@ const PricingCard = () => {
                     <ul className='list-none'>
                         <li className='text-sm'>Book a meeting room for presentations, meetings and brainstorming sessions</li>
                         {/* <li className='text-sm'>Access to Lounge Area</li>
-                        <li className='text-sm'>Free Cofee</li>
+                        <li className='text-sm'>Free Coffee</li>
                         <li className='text-sm'>Free Wi-Fi</li> */}
                     </ul>
                 </div>
@@ -138,7 +138,7 @@ const PricingCard = () => {
                     <ul className='list-none'>
                         <li className='text-sm'>Book our space for your events, seminars, conferences, workshop and hangouts</li>
                         {/* <li className='text-sm'>Access to Lounge Area</li>
-                        <li className='text-sm'>Free Cofee</li>
+                        <li className='text-sm'>Free Coffee</li>
                         <li className='text-sm'>Free Wi-Fi</li> */}
                     </ul>
                 </div>
