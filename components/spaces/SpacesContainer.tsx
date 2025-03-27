@@ -15,6 +15,7 @@ const SpacesContainer = () => {
             src={Text}
             alt="line"
             className="absolute bottom-10 right-0 object-cover hidden lg:block w-[20rem]"
+            priority
         />
     </section>
   )

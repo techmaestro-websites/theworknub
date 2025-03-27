@@ -15,6 +15,7 @@ const Pricing = () => {
             src={Create}
             alt="line"
             className="absolute w-[18rem] bottom-0 left-96 object-cover hidden lg:block"
+            priority
         />
     </section>
   )

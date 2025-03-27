@@ -19,6 +19,7 @@ const HeroText = () => {
             src={Line}
             alt="line"
             className="absolute top-32 left-8 object-cover hidden lg:block"
+            priority
         />
     </div>
   )

@@ -11,6 +11,7 @@ const Footer = () => {
                     src={footerLogo}
                     alt="worknub"
                     className="h-8 w-40 object-cover"
+                    priority
                 />
             </Link>
         </div>

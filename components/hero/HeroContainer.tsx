@@ -14,6 +14,7 @@ const HeroContainer = () => {
             src={Focus}
             alt="line"
             className="absolute w-[18rem] bottom-0 left-8 object-cover hidden lg:block"
+            priority
         />
     </section>
   )
