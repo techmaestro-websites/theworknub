@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 const config: Config = {
     darkMode: ["class"],
@@ -56,7 +57,12 @@ const config: Config = {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		}
-  	}
+	  },
+	    screens: {
+      xs: { max: "639px" },
+      xsm: { max: "767px" },
+      ...defaultTheme.screens,
+    },
   },
   plugins: [require("tailwindcss-animate")],
 };
