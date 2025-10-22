@@ -65,9 +65,14 @@ const NavLink = () => {
           transition={{ type: "tween", duration: 0.4 }} // Smooth animation
           className="fixed top-0 right-0 w-64 h-full bg-[#3b3a3a] shadow-lg p-4 z-50 md:hidden"
         >
-          <button className="text-black" onClick={() => setIsOpen(false)}>
-            <Image src={cancelIcon} alt="cancel" width={20} height={20} />
+          <button
+            className="text-black flex items-center gap-1"
+            onClick={() => setIsOpen(false)}
+          >
+            <Image src={cancelIcon} alt="" width={20} height={20} />
+            <span className="sr-only">Close menu</span>
           </button>
+
           <ul className="flex flex-col  gap-6 mt-6 ">
             {Nav.map((link) => (
               <Link

@@ -59,22 +59,27 @@ const pricingOptions = [
   },
 ];
 
-// Variants
+// Variants with proper TypeScript types
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    transition: { staggerChildren: 0.3, delayChildren: 0.2 },
+    transition: {
+      staggerChildren: 0.3,
+      delayChildren: 0.2,
+    },
   },
 };
-
 const cardVariants = {
   hidden: { opacity: 0, y: 50, scale: 0.9 },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { duration: 0.8, ease: "easeOut" },
+    transition: {
+      duration: 0.8,
+      ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number],
+    },
   },
 };
 
