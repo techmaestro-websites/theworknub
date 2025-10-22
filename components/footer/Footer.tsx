@@ -1,6 +1,6 @@
-import Link from "next/link"
-import Image from "next/image"
-import footerLogo from '@/public/images/footerLogo.png'
+import Link from "next/link";
+import Image from "next/image";
+import footerLogo from "@/public/images/footerLogo.png";
 
 const Footer = () => {
   return (
@@ -25,13 +25,13 @@ const Footer = () => {
           <h1 className="font-bold mt-2 hover:underline">+234 707 773 2936</h1>
         </a>
 
-        <a href="mailto:helpdesk@worknub.com">
+        <a href="mailto:theworknub@gmail.com">
           <p className="text-sm font-serif mt-4 hover:underline">
-            helpdesk@worknub.com
+            theworknub@gmail.com
           </p>
         </a>
       </div>
     </div>
   );
-}
-export default Footer
+};
+export default Footer;

@@ -78,7 +78,11 @@ const pricingOptions = [
   },
 ];
 
+<<<<<<< HEAD
 // Variants - Fixed with proper TypeScript types
+=======
+// Variants with proper TypeScript types
+>>>>>>> e912cf619a43febc0559e5d9fb60ecfe094d2b2a
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
@@ -86,12 +90,14 @@ const containerVariants = {
     transition: {
       staggerChildren: 0.3,
       delayChildren: 0.2,
+<<<<<<< HEAD
       duration: 0.8,
       ease: "easeOut" as const,
+=======
+>>>>>>> e912cf619a43febc0559e5d9fb60ecfe094d2b2a
     },
   },
 };
-
 const cardVariants = {
   hidden: {
     opacity: 0,
@@ -104,7 +110,11 @@ const cardVariants = {
     scale: 1,
     transition: {
       duration: 0.8,
+<<<<<<< HEAD
       ease: "easeOut" as const,
+=======
+      ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number],
+>>>>>>> e912cf619a43febc0559e5d9fb60ecfe094d2b2a
     },
   },
 };
