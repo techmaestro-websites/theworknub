@@ -21,7 +21,7 @@ const spaces = [
       "Your own personal workspace, available for as long as you need. Settle in, stay focused and make it yours.",
   },
   {
-    img: "/images/dedicatedOffice.jpg",
+    img: "/images/greenroom3.jpg",
     title: "Dedicated Desk",
     description:
       "Hot desk, dedicated desk, private office, meeting room, rest lounge, a conducive and innovative space.",

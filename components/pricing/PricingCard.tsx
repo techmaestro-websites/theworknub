@@ -7,7 +7,7 @@ import chairIcon from "@/public/images/chairIcon.png";
 
 const pricingOptions = [
   {
-    title: "Hot Desk Access",
+    title: "Shared Spaces",
     subtitle: "(Non-Membership)",
     features: [
       "Access to Hot Desk Area",
@@ -15,9 +15,9 @@ const pricingOptions = [
       "Complimentary Wi-Fi",
     ],
     pricing: [
-      { label: "Daily", price: "#5,000" },
-      { label: "Weekly", price: "#25,000" },
-      { label: "Monthly", price: "#100,000" },
+      { label: "Daily", price: "#3,500" },
+      { label: "Weekly", price: "#17,500" },
+      { label: "Monthly", price: "#70,000" },
     ],
   },
   {
@@ -30,8 +30,9 @@ const pricingOptions = [
       "Membership Onboarding",
     ],
     pricing: [
-      { label: "Weekly", price: "#30,000" },
-      { label: "Monthly", price: "#120,000" },
+      { label: "Daily", price: "#5,500" },
+      { label: "Weekly", price: "#27,500" },
+      { label: "Monthly", price: "#110,000" },
     ],
   },
   {
@@ -45,10 +46,13 @@ const pricingOptions = [
       "Free Wi-Fi",
       "Complimentary Coffee",
     ],
-    pricing: [{ label: "Monthly", price: "#220,000" }],
+    pricing: [
+      { label: "Daily", price: "#5,500" },
+      { label: "Monthly", price: "#220,000" },
+    ],
   },
   {
-    title: "Meeting Room",
+    title: "Conference/Meeting Room",
     subtitle: "(Hour Based)",
     features: [
       "Book a meeting room for presentations, meetings, and brainstorming sessions.",
@@ -57,24 +61,51 @@ const pricingOptions = [
     ],
     pricing: [{ label: "Hourly", price: "#36,000" }],
   },
+  {
+    title: "Event Hall",
+    subtitle: "(Hour Based)",
+    features: [
+      "Spacious event hall suitable for meetings, workshops, and presentations",
+      "High-speed internet and teleconferencing facilities",
+      "Projector & large display screen available",
+      "Air-conditioned comfort",
+      "On-site support staff for setup and assistance",
+    ],
+    pricing: [
+      { label: "1st Hour", price: "₦85,000" },
+      { label: "2nd Hour", price: "₦60,000" },
+    ],
+  },
 ];
 
-// Variants
+// Variants - Fixed with proper TypeScript types
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    transition: { staggerChildren: 0.3, delayChildren: 0.2 },
+    transition: {
+      staggerChildren: 0.3,
+      delayChildren: 0.2,
+      duration: 0.8,
+      ease: "easeOut" as const,
+    },
   },
 };
 
 const cardVariants = {
-  hidden: { opacity: 0, y: 50, scale: 0.9 },
+  hidden: {
+    opacity: 0,
+    y: 50,
+    scale: 0.9,
+  },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { duration: 0.8, ease: "easeOut" },
+    transition: {
+      duration: 0.8,
+      ease: "easeOut" as const,
+    },
   },
 };
 

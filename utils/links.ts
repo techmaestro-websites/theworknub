@@ -7,7 +7,7 @@ import pricingIcon from "../public/images/pricingIcon.svg";
 import pricingHoverIcon from "../public/images/pricingIcon-hover.svg";
 import galleryIcon from "../public/images/galleryIcon.svg";
 import galleryHoverIcon from "../public/images/galleryIcon-hover.svg";
- 
+
 type NavLinks = {
   href: string;
   label: string;
